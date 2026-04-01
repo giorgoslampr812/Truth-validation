@@ -24,6 +24,16 @@ source setupRivet
 
 rivet-build RivetVBS_fid.so VBS_fid.cc $(root-config --cflags --libs) 
 
-athena pyt_script.py
+athena pyt_script.py 
+
+Some results 
+
+llqq
+ZZ -> Internal note ratio merged/resolved = 0.79 , Me = 0.81 
+WZ -> Internal note ratio merged/resolved = 1.30 , Me = 1.29
+
+lvqq 
+WZ -> Internal note ratio merged/resolved = 0.60 , Me = 0.59
+WW -> Internal note ratio merged/resolved = 0.63 , Me = 0.67 (b veto sample)
 
 
